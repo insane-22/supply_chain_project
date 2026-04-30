@@ -4,6 +4,39 @@ This project focuses on analyzing and optimizing the unorganized food supply cha
 
 The system leverages data analysis and optimization strategies to support vendors in reducing costs and improving supply chain efficiency.
 
+## Problem Statement
+Our project aims to build a predictive system that can forecast customer ordering behavior over the next 14 days. This includes:
+- Predicting whether a customer will place an order
+- Forecasting what products (SKUs) and quantities they will order
+- Aggregating this data to optimize inventory planning
+
+The challenge lies in handling irregular, bulk-based, and seasonal B2B demand patterns.
+
+### Why We Are Solving This?
+- B2B demand is unpredictable and varies across customers (unlike regular B2C patterns)
+- Poor prediction leads to:
+    - Stockouts → lost sales
+    - Overstocking → wastage
+- A predictive system helps:
+    - Improve supply-demand alignment
+    - Enable efficient inventory and logistics planning
+    - Ensure timely delivery and better service quality
+
+Basically, We are solving this to reduce inefficiencies, minimize waste, and improve operational performance.
+
+### User Segments
+The primary users of this solution are:
+- Business Clients (Demand Side)
+    - Restaurants, cafés, dhabas
+    - Hotels
+    - Retail shops / general stores
+    - Traditional manufacturers (e.g., Petha, Daalmoth producers)
+- Internal Users (UNORG Team)
+    - Supply Chain Managers → plan inventory
+    - Operations Team → manage logistics & deliveries
+    - Procurement Team → decide purchasing quantities
+    - Data/Analytics Team → monitor predictions & improve models
+
 ## Objectives
 - Analyze vendor purchasing and pricing patterns
 - Identify inefficiencies in the supply chain
